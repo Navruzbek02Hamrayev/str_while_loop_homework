@@ -9,7 +9,7 @@ def main(s):
     i=0
     upper=0
     while i<len(s):
-        if s[i].isupper():
+        if s[i].islower():
             upper+=1
         i+=1
     return "Number of uppercase letters:",upper
