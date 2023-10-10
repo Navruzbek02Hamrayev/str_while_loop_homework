@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    odd=0
+    while i<len(s):
+        if int(s[i])%2==1:
+            odd+=1
+        i+=1
+    return "Number of odd digits:",odd
+print(main("1567534"))
+print(main("3489769"))
