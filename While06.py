@@ -7,3 +7,11 @@ def main(s):
     Returns:
         int: return answer
     """
+    i=0
+    consonant=0
+    while i<len(s):
+        if s[i]=="a" or s[i]=="e" or s[i]=="i" or s[i]=="o" or s[i]=="u":
+            consonant+=1
+        i+=1
+    return consonant
+print(main("CodeschoolUz"))
