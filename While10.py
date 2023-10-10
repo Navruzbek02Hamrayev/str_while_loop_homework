@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    odd=0
+    while i<len(s):
+        if int(s[i])%2==1:
+            odd+=int(s[i])
+        i+=1
+    return odd
+print(main("589765"))
+print(main("98421"))
