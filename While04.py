@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    upper=0
+    while i<len(s):
+        if s[i].isupper():
+            upper+=1
+        i+=1
+    return "Number of uppercase letters:",upper
+print(main("CodeschoolUz"))
