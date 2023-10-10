@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    digit=0
+    while i<len(s):
+        if s[i].isdigit():
+            digit+= 1
+        i+= 1
+    return "Number of digits:", digit
+print(main("python 2022"))
+print(main("e324xE"))
